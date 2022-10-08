@@ -208,7 +208,7 @@ def user_stats(df,city):
 
 
 def show_data(df):
-    """Displays raw data, 5 rows at a time. """
+    """Displays raw data, 5 rows at a time until user exits """
     keep_going = True    #variables to control the loop printing the raw data
     ind=0
 
