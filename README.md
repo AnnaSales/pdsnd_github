@@ -3,7 +3,7 @@
 
 Created 08/10/2022
 
-## Bikeshare Project
+## Bikeshare Project 🚴‍♀️
 
 #### Description
 A script to analyse bikeshare data from the cities of Chicago, New York and Washington. The user can select the city and the timeframe for analysis (month and day) from the command line. The script returns statistics on bikeshare usage including popular stations, journey times, and user details.
