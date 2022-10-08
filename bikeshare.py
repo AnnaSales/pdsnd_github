@@ -215,9 +215,7 @@ def show_data(df):
     while keep_going == True:
         for i in range(5):
             row_dict=df.iloc[ind+i].to_dict()  #print 5 rows of the data
-            for key , val in row_dict.items():
-                print(key ,':', val)
-
+            print(row_dict)
             print('\n')
         ind+=5     #move on to the next block of data
         carry_on=input('Would you like to see 5 more entries? y\n')
